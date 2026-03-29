@@ -1,0 +1,33 @@
+# Environment & Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# Model weights (too large for git)
+medgemma-4b-it/
+
+# Training outputs (checkpoints are large)
+medgemma-icd10-lora/
+medgemma-icd10-lora-v2/
+
+# Generated data (can be regenerated)
+generated_training_data/raw_notes_checkpoint.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
