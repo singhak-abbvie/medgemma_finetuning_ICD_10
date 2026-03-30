@@ -289,12 +289,6 @@ GRAD_ACCUM_STEPS = 4     # Increase to simulate larger batches
 
 ---
 
-## Blog Post
-
-For a detailed write-up of the entire journey including lessons learned, see [blog_finetuning_medgemma_icd10.md](blog_finetuning_medgemma_icd10.md).
-
----
-
 ## License
 
 This project is for research and educational purposes. 
